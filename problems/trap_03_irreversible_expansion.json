@@ -1,0 +1,7 @@
+{
+  "id": "trap_03",
+  "domain": "Thermodynamics / irreversible adiabatic expansion",
+  "problem": "n = 1 mol of an ideal monatomic gas at T1 = 300 K and P1 = 400 kPa is thermally insulated and expands against a constant external pressure P_ext = 100 kPa until it reaches equilibrium. Find the final temperature T2.",
+  "common_llm_failure": "Applies the reversible adiabatic relation T2 = T1 (P2/P1)^((gamma-1)/gamma) (about 172 K) instead of the first-law result.",
+  "ground_truth": {"T2_K": 210.0, "T2_wrong_reversible_K": 172.30}
+}

@@ -1,0 +1,7 @@
+{
+  "id": "trap_02",
+  "domain": "Electromagnetism / bound charge",
+  "problem": "A dielectric spherical shell (inner radius a, outer radius b) has polarization P(r) = P0 (r/b) r_hat. Find the bound volume charge density and the bound surface charge densities on the inner and outer surfaces.",
+  "common_llm_failure": "Drops the minus sign in rho_b = -div(P), or uses the outward normal on the inner surface.",
+  "ground_truth": {"rho_b": "-3*P0/b", "sigma_outer": "P0", "sigma_inner": "-P0*a/b", "total_charge": "0"}
+}

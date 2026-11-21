@@ -1,0 +1,7 @@
+{
+  "id": "trap_01",
+  "domain": "Mechanics / constraint separation",
+  "problem": "A particle starts at rest at the top of a smooth, fixed sphere of radius R and slides off. Find cos(theta_c), where theta_c is measured from the vertical at the moment it leaves the surface.",
+  "common_llm_failure": "Keeps the particle attached past the separation point, or skips the condition N = 0 and uses an incomplete force balance.",
+  "ground_truth": {"cos_theta_c": "2/3"}
+}
